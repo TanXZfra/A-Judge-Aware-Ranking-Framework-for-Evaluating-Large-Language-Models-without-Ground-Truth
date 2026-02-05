@@ -16,11 +16,12 @@ from itertools import combinations
 
 HF_DATASET_ID = "openbmb/UltraFeedback"
 HF_SPLIT = "train"
-HF_TOKEN = "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"
 
-TOGETHER_KEY = "tgp_v1_OhzFyb_kj1zpNvE3lmzE-xURofOzWo5Ws6lN4gOOduY"
-KIMI_KEY = "sk-8sdr0aY5n46eYhNwYNLJrxD5cHTrN3bjypEx3S1iBmPTYKV8"
-DS_KEY = "sk-129d454aa5da49559b6687bc6944de6d"
+# Please set your API keys here
+HF_TOKEN = ""
+TOGETHER_KEY = ""
+KIMI_KEY = ""
+DS_KEY = ""
 
 BASENAME = "judge_results_10k_ultrafeedback"
 N_SAMPLES = 3
@@ -322,4 +323,5 @@ def main():
     print(f"[INFO] Wrote run summary to {summary_path}")
 
 if __name__ == "__main__":
+
     main()
