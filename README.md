@@ -30,9 +30,9 @@ Contains the scored datasets used to fit and evaluate the judge-aware ranking mo
 
 Example contents:
 
-* `chatbot_arena/` — Chatbot Arena dataset (judge LLM scores included)
-* `mt_bench/` — MT-Bench dataset (judge LLM scores included)
-* `ultrafeedback/` — UltraFeedback dataset (judge LLM scores included)
+* `judge_results_10k_chatbot_arena/` — Chatbot Arena dataset (judge LLM scores included)
+* `judge_results_10k_mtbench/` — MT-Bench dataset (judge LLM scores included)
+* `judge_results_10k_ultrafeedback/` — UltraFeedback dataset (judge LLM scores included)
 * `in_house_data/` — In-house evaluation data collected by the authors (judge LLM scores included)
 
 ### `request_data/`
@@ -61,7 +61,7 @@ Key file:
 
 ## Requirements
 
-List common dependencies in `requirements.txt`. Example:
+List common dependencies in `requirements.txt`.
 
 ```
 numpy
@@ -92,6 +92,5 @@ If you use this code or methodology in your work, please cite the paper:
   year={2026},
   url={https://arxiv.org/abs/2601.21817}
 }
-
 ---
 
