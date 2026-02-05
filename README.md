@@ -22,8 +22,6 @@ results/             # all generated outputs, statistics, and intermediate files
 main/                # primary codebase; main.py implements fit + evaluation
 ```
 
-Below are precise descriptions of the four primary folders you mentioned and how they are used in this repo.
-
 ### `data/`
 
 Contains the scored datasets used to fit and evaluate the judge-aware ranking model. All datasets in this folder are **already scored by judge LLMs** and are ready to be converted into pairwise comparisons or consumed directly by the model.
